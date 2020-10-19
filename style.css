@@ -1,0 +1,85 @@
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      background-color: cornflowerblue;
+      border: none;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: cornflowerblue;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    #day1{
+      width: 80px;
+      height: 80px;
+      text-align: center;
+      color: white;
+      background-color: cornflowerblue;
+      visibility: hidden;
+      border-radius: 5px;
+    }
+    #day2{
+      width: 80px;
+      height: 80px;
+      text-align: center;
+      color: white;
+      background-color: cornflowerblue;
+      visibility: hidden;
+      border-radius: 5px;
+    }
+    #day3{
+      width: 80px;
+      height: 80px;
+      text-align: center;
+      color: white;
+      background-color: cornflowerblue;
+      visibility: hidden;
+      border-radius: 5px;
+    }
+    #day4{
+      width: 80px;
+      height: 80px;
+      text-align: center;
+      color: white;
+      background-color: cornflowerblue;
+      visibility: hidden;
+      border-radius: 5px;
+    }
+    #day5{
+      width: 80px;
+      height: 80px;
+      text-align: center;
+      color: white;
+      background-color: cornflowerblue;
+      visibility: hidden;
+      border-radius: 5px;
+    }
+#myLink {
+  color: white;
+}
+#cities {
+  color: white;
+}
